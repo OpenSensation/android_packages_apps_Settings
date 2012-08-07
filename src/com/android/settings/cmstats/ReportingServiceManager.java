@@ -30,7 +30,7 @@ import android.util.Log;
 public class ReportingServiceManager extends BroadcastReceiver {
 
     public static final long dMill = 24 * 60 * 60 * 1000;
-    public static final long tFrame = 7 * dMill;
+    public static final long tFrame = 1 * dMill;
 
     @Override
     public void onReceive(Context ctx, Intent intent) {
