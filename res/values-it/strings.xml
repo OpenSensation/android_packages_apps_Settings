@@ -944,7 +944,7 @@
     <string name="lockpattern_recording_intro_header" msgid="308287052221942814">"Inserisci una sequenza di sblocco"</string>
     <string name="lockpattern_recording_intro_footer" msgid="1118579101409152113">"Premi Menu per visualizzare la guida."</string>
     <string name="lockpattern_recording_inprogress" msgid="4622772178078818425">"Allontana il dito al termine."</string>
-    <string name="lockpattern_recording_incorrect_too_short" msgid="3103250430366718996">"Collega almeno <xliff:g id="NUMBER">%d</xliff:g> punti. Riprova:"</string>
+    <string name="lockpattern_recording_incorrect_too_short" msgid="3103250430366718996">"Collega almeno <xliff:g id="NUMBER">%d</xliff:g> pallini. Riprova:"</string>
     <string name="lockpattern_pattern_entered_header" msgid="8378617839439987962">"Sequenza registrata."</string>
     <string name="lockpattern_need_to_confirm" msgid="5144676887162575050">"Inserisci di nuovo la sequenza per confermare:"</string>
     <string name="lockpattern_pattern_confirmed_header" msgid="2223856038485537716">"Nuova sequenza di sblocco:"</string>
@@ -956,6 +956,8 @@
     <string name="lockpattern_settings_enable_title" msgid="6920616873671115281">"Richiedi sequenza"</string>
     <string name="lockpattern_settings_enable_summary" msgid="1165707416664252167">"Devi inserire la sequenza per sbloccare lo schermo"</string>
     <string name="lockpattern_settings_enable_visible_pattern_title" msgid="2615606088906120711">"Rendi visibile la sequenza"</string>
+    <string name="lockpattern_settings_enable_dots_title">Visualizza pallini</string>
+    <string name="lockpattern_settings_enable_error_path_title">Visualizza sequenza errata</string>
     <string name="lockpattern_settings_enable_tactile_feedback_title" msgid="8898518337442601027">"Vibra alla pressione"</string>
     <string name="lockpattern_settings_enable_power_button_instantly_locks" msgid="5735444062633666327">"Blocco con pulsante accens."</string>
     <string name="lockpattern_settings_choose_lock_pattern" msgid="1652352830005653447">"Imposta sequenza"</string>
@@ -2201,7 +2203,6 @@
     <string name="profile_add_nfc_text">Questo tag NFC si riferisce ad un profilo sconosciuto. Collegare questo tag NFC ad un profilo esistente permetterà di selezionarlo in futuro.</string>
     <string name="profile_select">Seleziona profilo</string>
     <string name="link_volume_ringtones">Collega volume suoneria e notifiche</string>
-    <string name="link_volume_ringtones_toast">Assicurarsi di modificare il volume per sincronizzare il volume di notifica e di suoneria.</string>
     <string name="link_volume_mutes">Collega silenz. suoneria e notifiche</string>
     <string name="adb_over_network">"ADB attraverso la rete"</string>
     <string name="adb_over_network_summary">"Attiva il debugging TCP/IP attraverso interfaccie di rete (Wi-Fi, Reti USB). Questa impostazione è resettata al riavvio"</string>
@@ -2242,7 +2243,8 @@
     <string name="stylus_icon_enabled_summary">Visualizza il puntatore quando disegni col pennino</string>
     <string name="power_menu_title">Menu tasto accensione</string>
     <string name="power_menu_reboot_title">Menu riavvio</string>
-	<string name="power_menu_screenshot_title">Cattura schermata</string>
-	<string name="power_menu_profiles_title">Selettore profilo</string>
+    <string name="power_menu_screenshot_title">Cattura schermata</string>
+    <string name="power_menu_profiles_title">Selettore profilo</string>
     <string name="development_tools_title">Esegui Tools</string>
 </resources>
+
