@@ -156,10 +156,16 @@
                 android:title="@string/mem_info"
                 android:summary="@string/device_info_default"/>
 
-        <!-- Mod version -->
-        <Preference android:key="mod_version"
+        <!-- CyanogenMod version -->
+        <Preference android:key="cm_version"
                 style="?android:preferenceInformationStyle"
-                android:title="@string/mod_version"
+                android:title="@string/cm_version"
+                android:summary="@string/mod_version_default" />
+
+        <!-- OpenSensation version -->
+        <Preference android:key="os_version"
+                style="?android:preferenceInformationStyle"
+                android:title="@string/os_version"
                 android:summary="@string/mod_version_default" />
 
         <!-- Mod build date -->

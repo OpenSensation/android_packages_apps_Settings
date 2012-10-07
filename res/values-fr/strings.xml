@@ -707,7 +707,8 @@
     <string name="device_hostname">Nom d\'hôte de l\'appareil</string>
 
     <!-- About phone screen,  setting option name-->
-    <string name="mod_version">Version CyanogenMod</string>
+    <string name="cm_version">Version CyanogenMod</string>
+    <string name="os_version">Version OpenSensation</string>
     <string name="mod_version_default">Inconnue</string>
     <!-- About phone screen, build date of ROM -->
     <string name="build_date">Date de compilation</string>
